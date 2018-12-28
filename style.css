@@ -1,0 +1,112 @@
+.header {
+	background: white;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 22px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-container {
+	margin-top: 20px;
+	width: 67%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-container img {
+	width: 163px;
+    height: 100%;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	font-size: 23px;
+}
+
+.icons i {
+	margin-left: 39px;
+}
+
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.main {
+	background: #fafafa;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.main-container {
+	width: 67%;
+}
+
+.profile-block {
+	display: flex;
+}
+
+.profile-block .profile-picture {
+	border-radius: 50%;
+    padding: 5px;
+    border: 3px solid #ff0067;
+    width: 172px;
+    height: 100%;
+    margin: 41px 53px 0 0;
+}
+
+.profile-info{
+	margin: 44px 0;
+    line-height: 35px;
+}
+
+.following-button {
+	padding: 7px 31px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.profile-info .nickname-and-followers {
+	font-size: 29px;
+    margin-right: 21px;
+}
+
+.profile-numbers-info {
+	display: flex;
+}
+
+.profile-numbers-info p {
+	margin-right: 51px;
+}
+
+.profile-block-description {
+	margin-top: -8px;
+}
+
+
+.heading-container {
+	display: flex;
+    justify-content: center;
+}
+
+.heading-container p {
+	border-top: 1px solid;
+    padding: 11px 0px;
+    text-transform: uppercase;
+}
+
+.images img {
+	width: 272px;
+    height: 272px;
+    margin: 14px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
